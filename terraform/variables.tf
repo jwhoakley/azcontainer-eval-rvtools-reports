@@ -55,3 +55,15 @@ variable "restart_policy" {
     error_message = "The restart_policy must be one of the following: Always, Never, OnFailure."
   }
 }
+
+variable "tags-project" {
+  type = string
+  description = "tag for project"
+  default = "azjwho-project"
+}
+
+variable "tags-environment" {
+  type = string
+  description = "tag for environment"
+  default = "azjwho-testing"
+}

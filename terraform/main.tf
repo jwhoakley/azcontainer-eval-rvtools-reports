@@ -5,6 +5,10 @@ resource "random_pet" "rg_name" {
 resource "azurerm_resource_group" "rg" {
   name     = random_pet.rg_name.id
   location = var.resource_group_location
+  tags = {
+    project = var.tags-project
+    environment = var.tags-environment
+  }
 }
 
 resource "random_string" "container_name" {
@@ -32,5 +36,10 @@ resource "azurerm_container_group" "container" {
       port     = var.port
       protocol = "TCP"
     }
+  }
+
+  tags = {
+    project = var.tags-project
+    environment = var.tags-environment
   }
 }

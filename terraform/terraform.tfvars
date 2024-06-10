@@ -7,3 +7,5 @@ image = "jwhoakley/azcontainer-eval-rvtools-reports"
 # Tags to use
 tags-project = "azc-eval-rvtools-reports"
 tags-environment = "testing"
+
+port = 80

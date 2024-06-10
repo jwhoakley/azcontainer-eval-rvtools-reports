@@ -17,3 +17,7 @@ Build docker image:
     docker tag jwhoakley/azc-eval-rvtools-reports:latest jwhoakley/azc-eval-rvtools-reports:0.0.1
 
     docker push jwhoakley/azc-eval-rvtools-reports:0.0.1 
+
+Nginx 
+https://docs.gunicorn.org/en/22.0.0/deploy.html
+https://phoenixnap.com/kb/docker-nginx-reverse-proxy

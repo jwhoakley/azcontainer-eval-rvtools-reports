@@ -2,7 +2,7 @@
 #image = "mcr.microsoft.com/azuredocs/aci-helloworld"
 #image = "jwhoakley/dev-environments-python:latest"
 #image = "jwhoakley/first-app:latest"
-image = "jwhoakley/azcontainer-eval-rvtools-reports"
+image = "jwhoakley/azcontainer-eval-rvtools-reports:latest"
 
 # Tags to use
 tags-project = "azc-eval-rvtools-reports"
